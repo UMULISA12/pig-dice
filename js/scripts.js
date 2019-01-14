@@ -90,4 +90,12 @@ function Player(name, score, roundScore, totalScore, hold) {
             $(".image").html(player1.image);
             player1.rollOne();
             $("#round-score-player1").html(player1.roundScore);
-          });  
+          }); 
+          $("#roll-player2").click(function() {
+            player2.score = rollDice();
+            $("#score-player2").html(player2.score);
+            player2.pic();
+            $(".image").html(player2.image);
+            player2.rollOne();
+            $("#round-score-player2").html(player2.roundScore);
+          }); 
