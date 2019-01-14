@@ -1,24 +1,22 @@
 # pig-dice
-Pig Dice app
-
 Web application that allows two players to play pig dice.
-#Contributors: 
+# Contributors: 
 Alice UMULISA
 
-#Description
+# Description
 This is a simple pig dice game app.
 
-#Instructions:
+# Instructions:
 Go to website.
 Enter player names in respective sections.
 Click 'roll' to roll die.
 Click 'hold' to retain accumulated round points and add to total score before passing to next player.
 Click 'new game' to reset game.
-#Game rules:
+# Game rules:
 When a player rolls the die and gets 1,all previously accumulated points are nullified and the other player takes a turn.
 If 1 is not gotten after a roll,the player rolling continues until he/she either rolls a 1 or clicks 'hold' to pass the turn to the other player.
 First player to 100 points wins.
-#Specifications:
+# Specifications:
 The program will generate a random number from 0 t0 6.
 Input: Click 'Roll'
 Output: Either 1,2,3,4,5 or 6.
