@@ -99,3 +99,10 @@ function Player(name, score, roundScore, totalScore, hold) {
             player2.rollOne();
             $("#round-score-player2").html(player2.roundScore);
           }); 
+          $("#hold-player1").click(function() {
+            player1.hold();
+            $("#total-score-player1").html(player1.totalScore);
+            $("#round-score-player1").val("");
+            $("#score-player1").val("");
+            player1.winner();
+          });
