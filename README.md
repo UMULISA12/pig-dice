@@ -36,6 +36,7 @@ The program will alert player of victory if 100 points are accumulated and promp
 Input: Total points = 100
 Output: 'Player Name', you have won! 'Players total points'.
 # published page
+https://umulisa12.github.io/pig-dice/
 
 # Technologies used:
 HTML
