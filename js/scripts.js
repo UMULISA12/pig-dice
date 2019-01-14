@@ -9,3 +9,11 @@ function Player(name, score, roundScore, totalScore, hold) {
   function rollDice() {
     return Math.floor(Math.random() * (7 - 1)) + 1;
   }
+  Player.prototype.rollOne = function() {
+    if (this.score === 1) {
+      this.roundScore = 0;
+      alert(this.playerName + " has rolled 1!Next players turn!")
+    } else {
+      this.roundScore += this.score;
+    }
+  }
