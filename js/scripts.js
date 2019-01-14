@@ -43,3 +43,10 @@ function Player(name, score, roundScore, totalScore, hold) {
     } else {
       $(".image").html("<img src='img/download ().jpeg'>");
     }
+    Player.prototype.newGame = function() {
+        this.score = 0;
+        this.roundScore = 0;
+        this.totalScore = 0;
+    
+      }
+    }
