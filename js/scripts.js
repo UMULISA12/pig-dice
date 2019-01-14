@@ -29,3 +29,17 @@ function Player(name, score, roundScore, totalScore, hold) {
   
     }
   }
+  Player.prototype.pic = function() {
+    if (this.score === 2) {
+      $(".image").html("<img src='images/2dice.png'>")
+    } else if (this.score === 3) {
+      $(".image").html("<img src='images/3dice.png'>")
+    } else if (this.score === 4) {
+      $(".image").html("<img src='images/4dice.png'>")
+    } else if (this.score === 5) {
+      $(".image").html("<img src='images/5dice.png'>")
+    } else if (this.score === 6) {
+      $(".image").html("<img src='images/6dice.png'>")
+    } else {
+      $(".image").html("<img src='img/download ().jpeg'>");
+    }
