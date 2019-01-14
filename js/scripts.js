@@ -51,3 +51,21 @@ function Player(name, score, roundScore, totalScore, hold) {
       }
     }
     //Front-end
+
+    $(document).ready(function() {
+        $("button#play").click(function(event) {
+          player1 = new Player(true);
+          player2 = new Player(false);
+          $("#game").show();
+          $("#pre-game").hide();
+      
+          var player1Name = $(".player1").val();
+          $("#player1Name").text(player1Name);
+      
+          var player2Name = $(".player2").val();
+          $("#player2Name").text(player2Name);
+      
+          player1.playerName = player1Name;
+          player2.playerName = player2Name;
+        });
+      
