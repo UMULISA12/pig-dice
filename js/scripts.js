@@ -50,3 +50,4 @@ function Player(name, score, roundScore, totalScore, hold) {
     
       }
     }
+    //Front-end
