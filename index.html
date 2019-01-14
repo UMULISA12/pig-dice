@@ -35,4 +35,35 @@
       </form>
       <button type="submit" name="button" class="btn-success play" id="play">Let's play!</button>
     </div>
-   
+    <div id="game">
+        <div class="reset">
+          <button type="submit" name="button" class="btn-warning newGame">New Game</button>
+        </div>
+    
+        <div class="row">
+    
+          <div class="col-md-5" id="player1">
+            <h2><span id="player1Name"></span></h2>
+            <h3>Score:</h3>
+            <div id="score-player1" class="result1">
+            </div>
+            <h3>Round Score:</h3>
+            <div id="round-score-player1" class="result1">
+            </div>
+            <h3>Total Score:</h3>
+            <div id="total-score-player1" class="result1">
+            </div><br>
+            <button type="submit" name="button" id="roll-player1" class="btn">Roll</button><br><br>
+            <button type="submit" name="button" id="hold-player1" class="btn">Hold</button>
+          </div>
+    
+          <div class="col-md-2" id="images">
+            <div class="image"></div>
+          </div>
+    
+          <div class="col-md-5" id="player2">
+            <h2><span id="player2Name"></span></h2>
+            <h3>Score:</h3>
+            <div id="score-player2" class="result2">
+            </div>
+            <h3>Round Score:</h3>
