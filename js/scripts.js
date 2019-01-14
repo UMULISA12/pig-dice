@@ -73,4 +73,13 @@ function Player(name, score, roundScore, totalScore, hold) {
             $(".player1").val("");
             $(".player2").val("");
         
-            $("#game").hide();    
+            $("#game").hide(); 
+            $("#round-score-player1").empty();
+            $("#total-score-player1").empty();
+            $("#score-player1").empty();
+            $("#round-score-player1").empty();
+            $("#total-score-player2").empty();
+            $("#score-player2").empty();
+        
+            $("#pre-game").show();
+          });   
