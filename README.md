@@ -43,6 +43,11 @@ HTML
 CSS and Bootstrap
 Javascript and jQuery
 
+# License
+This project is licensed under the MIT license.
+
+Copyright 2018 | Alice.UMULISA.pigdice GAME | All Rights Reserved
+
 # Contacts
 Feel free to reach out if you have any questions,ideas or contributions. Also feel free to contribute to my code. Number:0787038040 Email:Umulisaa0@@gmail.com
 
