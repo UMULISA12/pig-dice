@@ -106,3 +106,11 @@ function Player(name, score, roundScore, totalScore, hold) {
             $("#score-player1").val("");
             player1.winner();
           });
+          $("#hold-player2").click(function() {
+            player2.hold();
+            $("#total-score-player2").text(player2.totalScore);
+            $("#round-score-player2").val("");
+            $("#score-player1").val("");
+            player2.winner();
+          });
+        });
