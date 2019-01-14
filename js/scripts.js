@@ -82,4 +82,12 @@ function Player(name, score, roundScore, totalScore, hold) {
             $("#score-player2").empty();
         
             $("#pre-game").show();
-          });   
+          }); 
+          $("#roll-player1").click(function() {
+            player1.score = rollDice();
+            $("#score-player1").html(player1.score);
+            player1.pic();
+            $(".image").html(player1.image);
+            player1.rollOne();
+            $("#round-score-player1").html(player1.roundScore);
+          });  
