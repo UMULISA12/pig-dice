@@ -4,3 +4,68 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .jumbotron, #pre-game, .reset, #images {
+    text-align: center;
+  }
+  
+  .jumbotron {
+    background-color: #ffcc99;
+  
+    font-size: 20px;
+  }
+  
+  #pre-game {
+    background-color: #ffcc99;
+  }
+  
+  
+  .result1 {
+    background-color: none;
+  }
+  
+  .result2 {
+    background-color: none;
+  }
+  
+  #player1, #player2 {
+    position: relative;
+    text-align: center;
+  }
+  
+  #player1Name {
+    background-color: #ffcc99;
+    border-radius: 10%;
+  }
+  
+  #player2Name {
+    background-color: #ffcc99;
+    border-radius: 10%;
+  }
+  
+  #images {
+    margin-top: 2.5%;
+  }
+  
+  #pre-game {
+    position: relative;
+  }
+  
+  .btn {
+    background-color: #008cba;
+  }
+  
+  #game {
+    position: relative;
+    display: none;
+  }
+  h1{
+      text-shadow: whitesmoke 2px 2px 2px;
+  }
+#play{
+    background-color:#663300;
+    border: 2px solid black;
+  }
+  .image{
+      height: 100px;
+      width: 100px;
+  }
