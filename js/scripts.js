@@ -17,3 +17,8 @@ function Player(name, score, roundScore, totalScore, hold) {
       this.roundScore += this.score;
     }
   }
+  Player.prototype.hold = function() {
+    this.totalScore += this.roundScore;
+    this.roundScore = 0;
+    alert("Next player's turn!")
+  }
