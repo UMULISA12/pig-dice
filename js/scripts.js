@@ -68,4 +68,9 @@ function Player(name, score, roundScore, totalScore, hold) {
           player1.playerName = player1Name;
           player2.playerName = player2Name;
         });
-      
+        $(".reset").click(function(event) {
+            event.preventDefault();
+            $(".player1").val("");
+            $(".player2").val("");
+        
+            $("#game").hide();    
