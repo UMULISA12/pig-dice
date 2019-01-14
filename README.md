@@ -35,12 +35,13 @@ Output: 6
 The program will alert player of victory if 100 points are accumulated and prompt him/her to begin a new game.
 Input: Total points = 100
 Output: 'Player Name', you have won! 'Players total points'.
+# published page
 
-#Technologies used:
+# Technologies used:
 HTML
 CSS and Bootstrap
 Javascript and jQuery
 
-#Contacts
+# Contacts
 Feel free to reach out if you have any questions,ideas or contributions. Also feel free to contribute to my code. Number:0787038040 Email:Umulisaa0@@gmail.com
 
